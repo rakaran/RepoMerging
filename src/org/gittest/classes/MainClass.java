@@ -22,4 +22,13 @@ public class MainClass {
 		}
 		System.out.println("Method created by:"+user);
 	}
+	public void rakaranMethod(){
+		String user = null ;
+		try {
+			user = InetAddress.getLocalHost().getHostName();
+		} catch (UnknownHostException e) {
+			e.printStackTrace();
+		}
+		System.out.println("Method created by: RAKARAN");
+	}
 }
