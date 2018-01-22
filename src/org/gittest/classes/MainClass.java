@@ -31,4 +31,8 @@ public class MainClass {
 		}
 		System.out.println("Method created by: RAKARAN");
 	}
+	
+	public void methodWithoutAccess(){
+		System.out.println("This is added after for pull request");
+	}
 }
